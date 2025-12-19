@@ -100,25 +100,4 @@ Typical MCU connector signals:
    - Input **active** ⇒ optocoupler saturated ⇒ output **LOW**  
    - Input **inactive** ⇒ transistor off ⇒ pull-up ⇒ output **HIGH**
 
----
 
-## 6. Repository Structure
-
-Suggested layout (adapt to your real repo):
-
-```text
-Kalem-4-Channel-Isolated-Input/
-├─ hardware/
-│  ├─ pcb/               # EDA project, schematic & PCB
-│  ├─ gerber/            # Production files
-│  └─ mechanical/        # STEP, DXF, drawings
-├─ firmware/
-│  ├─ arduino/           # Arduino / ESP32 examples
-│  └─ stm32/             # STM32Cube / HAL examples
-├─ docs/
-│  ├─ Kalem-4Ch-Isolated-Input-Datasheet.pdf
-│  └─ images/
-│     ├─ kalem-4ch-input-top.png
-│     ├─ kalem-4ch-input-3d.png
-│     └─ mechanical-drawing.png
-└─ README.md
