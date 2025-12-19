@@ -1,1 +1,1 @@
-# 4-Channel-Isolated-Output
+# 4-Channel-Isolated-Input
